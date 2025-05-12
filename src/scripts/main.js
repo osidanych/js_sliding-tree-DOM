@@ -1,6 +1,6 @@
 'use strict';
 
-document.addEventListener('DOMContentLoad', () => {
+document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('li').forEach((li) => {
     const childUl = li.querySelector(':scope > ul');
 
